@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { appLogin, setClipboardText } from "@apps-in-toss/web-framework";
-// import { Button } from "@toss/tds-mobile";
+import { Button } from "@toss/tds-mobile";
 
 function App() {
   const [state, setState] = useState({
@@ -50,9 +50,9 @@ function App() {
       토스 로그인 값 확인
       <br />
       <br />
-      <button type="button" display="block" onClick={login}>
+      <Button display="block" onClick={login}>
         토스 로그인 하기
-      </button>
+      </Button>
       <br />
       <br />
       <br />
@@ -63,9 +63,9 @@ function App() {
       <br />
       <br />
       {state.code ? (
-        <button type="button" display="block" onClick={clip}>
+        <Button type="button" display="block" onClick={clip}>
           authorizationCode 복사하기
-        </button>
+        </Button>
       ) : (
         ""
       )}
