@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ait-test/static/css/main.f855e6bc.css",
+    "main.js": "/ait-test/static/js/main.8d6e9e7c.js",
+    "static/js/453.2454384b.chunk.js": "/ait-test/static/js/453.2454384b.chunk.js",
+    "static/media/logo.svg": "/ait-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ait-test/index.html",
+    "main.f855e6bc.css.map": "/ait-test/static/css/main.f855e6bc.css.map",
+    "main.8d6e9e7c.js.map": "/ait-test/static/js/main.8d6e9e7c.js.map",
+    "453.2454384b.chunk.js.map": "/ait-test/static/js/453.2454384b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8d6e9e7c.js"
+  ]
+}
